@@ -12,22 +12,21 @@
     <p style="color:#8080FF">Créez un tableau associatif contenant comme 
     clé des numéros de départements et comme valeurs les départements 
     correspondants. Affichez les départements et leurs clés respectives.
-</p>
+    </p>
     <?php
         $department = array(
-            75 => "PARIS" , //j'utilise => pour associer une clé à une valeur
+            75 => "PARIS" , 
+            77 => "SEINE-ET-MARNE",
+            78 => "YVELINES",
             91 => "ESSONNE",
             92 => "HAUTS-DE-SEINE",
             93 => "SEINE-SAINT-DENIS",
             94 => "EVRY SUR SEINE",
-            77 => "SEINE-ET-MARNE",
             95 => "VAL-DE-MARNE",
-            78 => "YVELINES",
         );         
-        foreach ($department  as  $clé => $value ){ //cette boucle a récupéré la clé et la valeur
+        foreach ($department  as  $clé => $value ){ 
             echo  $clé . " : " . $value . " <br/>" ;
         }
-        
     ?>
 </body>
 </html>
