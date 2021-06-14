@@ -12,8 +12,8 @@
     <p style="color:#8080FF">Créez un tableau contenant les 12 mois 
     de l'année, affichez "Mars".</p>
     <?php
-        $month = array( "janvier","février","mars","avril","mai","juin",
-        "juillet","aout","septembre","octobre","novombre","décembre");
+        $month = array( "Janvier","Février","Mars","Avril","Mai","Juin",
+        "Juillet","Août","Septembre","Octobre","Nvombre","Décembre");
         echo $month[2]. "<br>" ;
     ?>
 </body>
